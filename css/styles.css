@@ -22,6 +22,21 @@ nav{
   height: 850px;
 }
 
+.panel-success .panel-heading{
+  background-color: #cef2e0;
+  color: black;
+  border: 1px solid #a3b0bf;
+  margin: 5px;
+
+}
+
+.panel-info .panel-heading{
+  background-color: #cedff2;
+  color: black;
+  border: 1px solid #a3b0bf;
+  margin: 5px;
+}
+
 /****Today's Feauture Section****/
 
 .panel-default{
@@ -30,6 +45,8 @@ nav{
 
 .panel-default .panel-heading{
   background-color: #ddcef2;
+  border: 1px solid #a3b0bf;
+  margin: 5px;
 }
 
 
