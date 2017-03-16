@@ -4,13 +4,14 @@
     <meta charset="utf-8">
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
     <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
-    <title></title>
+    <title>Our Wikipedia</title>
   </head>
 
   <body>
     <div class="row">
       <div class="col-md-2">
         <nav class="sidebar">
+          <img class="wikilogo" src="img/wikilogo.png" alt="wikilogo">
           <p>Main page</p>
           <p>Contents</p>
           <p>Featured content</p>
@@ -29,18 +30,27 @@
         <main>
           <div class="row"> <!--rowbegin-->
             <div class="col-md-7"> <!--column 1 begin-->
-              <h2>From Today's featured article</h2>
-              <p>Powderfinger, an Australian rock band, formed in Brisbane in 1989. From 1992 to 2010 the lineup consisted of vocalist Bernard Fanning, guitarists Darren Middleton and Ian Haug, bass guitarist John Collins and drummer Jon Coghill. </p>
+              <div class="panel panel-info">
+                <div class="panel-heading">
+                  <h2 class="panel-title">From Today's featured article</h2>
+                </div>
+                <div class="panel-body">
+                  <img class="feature-pic" src="img/feature.jpg" alt="feature">
+                  <p>Powderfinger, an Australian rock band, formed in Brisbane in 1989. From 1992 to 2010 the lineup consisted of vocalist Bernard Fanning, guitarists Darren Middleton and Ian Haug, bass guitarist John Collins and drummer Jon Coghill. </p>
+                </div> <!--close panel body-->
 
-              <h2>Did you know...</h2>
-              <ul>
-                <li>... that London's Hanover Lodge (pictured) sold for £120 million in 2012, but the underground swimming pool, which converts into a ballroom, is considered "too small"?</li>
-                <li>that Hans Larwin painted Soldat und Tod in 1917 when he was the official war painter for the Austria-Hungary dual monarchy?</li>
-              </ul>
+                <h2>Did you know...</h2>
+                <img class="didyouknow-pic" src="img/did-you-know.jpg" alt="did you know image">
+                <ul>
+                  <li>... that London's Hanover Lodge (pictured) sold for £120 million in 2012, but the underground swimming pool, which converts into a ballroom, is considered "too small"?</li>
+                  <li>that Hans Larwin painted Soldat und Tod in 1917 when he was the official war painter for the Austria-Hungary dual monarchy?</li>
+                </ul>
+              </div> <!--panel.info close-->
             </div> <!--column 1 end-->
 
             <div class="col-md-5"> <!--column 2 begin-->
               <h2>In the news</h2>
+              <img class="news-pic" src="img/news.jpg" alt="news image">
               <ul>
                 <li>Disputes over a Turkish constitutional referendum trigger a diplomatic incident between Turkey and the Netherlands (protesters pictured).</li>
                 <li>South Korea's Constitutional Court removes President Park Geun-hye from office.</li>
@@ -48,6 +58,7 @@
 
               <h2>On this day...</h2>
               <p>March 16</p>
+              <img class="today-pic"src="img/on-this-day.jpg" alt="today image">
                 <ul>
                   <li>597 BC – Babylonian king Nebuchadnezzar II captured Jerusalem and installed Zedekiah as King of Judah.</li>
                   <li>1322 – Despenser War: A royalist army defeated troops loyal to Thomas, 2nd Earl of Lancaster, in the Battle of Boroughbridge, which allowed King Edward II of England to hold on to power for another five years.</li>
@@ -62,14 +73,16 @@
             <p>Vertumnus is a painting completed by the Mannerist painter Giuseppe Arcimboldo in Milan c. 1590–1591. It depicts the Holy Roman Emperor Rudolf II as Vertumnus, the Roman god of metamorphoses in nature and life. The fruits and vegetables symbolize the abundance of the Golden Age that had returned under the Emperor's rule. The painting is now held at Skokloster Castle.</p>
           </div>
 
-          <h3>Other areas of Wikipedia</h3>
-          <p>lorem ipsum</p>
+          <div class="other-stuff">
+            <h3>Other areas of Wikipedia</h3>
+            <p>lorem ipsum</p>
 
-          <h3>Wiki's sister projects</h3>
-          <p>lorem ipsum</p>
+            <h3>Wiki's sister projects</h3>
+            <p>lorem ipsum</p>
 
-          <h3>Wiki languages</h3>
-          <p>lorem ipsum</p>
+            <h3>Wiki languages</h3>
+            <p>lorem ipsum</p>
+          </div>
         </main>
 
         <footer>
